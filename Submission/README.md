@@ -31,6 +31,9 @@ A Colorado Board of Elections employee has given the following tasks to complete
 - The winner of the election was:
     - Candidate Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 
+Detailed View of the Election Audit Results:
+![Results](Resources/Results.png)
+
 ---
 
 ## Election-Audit Summary
