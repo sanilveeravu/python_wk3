@@ -19,7 +19,7 @@ A Colorado Board of Elections employee has given the following tasks to complete
 ## Election-Audit Results
 
 - There were 369,711 votes cast in the election.
-- There were 3 counties in this precint for the election. Their turnout results were as below:
+- There were 3 counties in the election. Their turnout results were as below:
     - Jefferson had 23.0% of voter turnout with 38,855 number of votes.
     - Denver had 82.8% of voter turnout with 306,055 number of votes.
     - Arapahoe had 6.7% of voter turnout with 24,801 number of votes.
@@ -32,10 +32,16 @@ A Colorado Board of Elections employee has given the following tasks to complete
     - Candidate Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 
 Detailed View of the Election Audit Results:
+
 ![Results](Resources/Results.png)
 
 ---
 
 ## Election-Audit Summary
 
+The process built for this analysis without any modification can be used to determine similar results at a county and candidate level. A similar input file with Ballot id, County Name and Candidate Name is required.
 
+On top of this with slight changes in the script and required data this can definitely be enhanced to additional election audits
+* If the mapping of counties to higher level classifications like states or districts is provided. The application will be able to define winners for each of the districts from one source itself.
+* If the population of each county is provided, additional insight of voter turnout based on population can be derived
+* A new grouping can be easily added by introducing an if condition after the required variables are initialized using this code - https://github.com/sanilveeravu/python_wk3/blob/a89920db8c6527fc0f079b3c0cee2e7d60d36736/Submission/PyPoll_Challenge.py#L60-L79
