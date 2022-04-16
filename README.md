@@ -44,7 +44,7 @@ The process built for this analysis without any modification can be used to dete
 On top of this with slight changes in the script and required data this can definitely be enhanced to additional election audits
 * If the mapping of counties to higher level classifications like states or districts is provided. The application will be able to define winners for each of the districts from one source itself.
 * If the population of each county is provided, additional insight of voter turnout based on population can be derived
-* A new grouping can be easily added by introducing an if condition after the required variables are initialized using this code - https://github.com/sanilveeravu/python_wk3/blob/a89920db8c6527fc0f079b3c0cee2e7d60d36736/Submission/PyPoll_Challenge.py#L60-L79
+* A new grouping can be easily added by introducing an if condition after the required variables are initialized using this code - https://github.com/sanilveeravu/python_wk3/blob/a12826582ff80398aed33cf0020a3932db4ae6f4/PyPoll_Challenge.py#L60-L79
 
 election results vs election analysis
 run in submission
